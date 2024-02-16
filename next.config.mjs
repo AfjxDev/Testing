@@ -18,7 +18,7 @@ const nextConfig = {
 	trailingSlash: true,
 	skipTrailingSlashRedirect: true,
 	reactStrictMode: (MODE_DEVELOPMENT),
-	distDir: (MODE_DEVELOPMENT) ? ".next" : "dist",
+	distDir: (MODE_DEVELOPMENT) ? ".next" : "out",
 	output: (MODE_DEVELOPMENT) ? "standalone" : "export",
 	images: {
 		unoptimized: !(MODE_DEVELOPMENT),
